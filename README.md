@@ -5,20 +5,21 @@ A set of vectors 'S' in R^n is called a Hilbert bases if any vector that is in t
 
 This repository consists of code written in C++ for calculating Hilbert bases of cuts of graphs using the Normaliz software. http://www.mathematik.uni-osnabrueck.de/normaliz/
 
-For questions or comments, feel free to contact be at tanmaydesh5886@gmail.com
+For questions or comments, feel free to write to tanmaydesh5886@gmail.com
 
 
 Instructions:
 
-1. matrix.txt is incidence matrix of graph
+1. matrix.txt is incidence matrix of graph.
+Rows represent the edges and columns represent the vertices
 
 
-2. use forloop.cpp to fill in code for code.cpp. There should be as many nested for loops as the number of vertices of the graph.
-Fill in correct values for a and b in code.cpp
+2. use forloop.cpp to fill in code for code.cpp. 
+There should be as many nested for loops as the number of vertices of the graph.
 
 
 3. use code.cpp to generate cuts
-Compile and run code.cpp -> outputs char vectors of cuts into graph.in
+Fill in correct values for a and b in code.cpp. Compile and run code.cpp -> outputs char vectors of cuts into graph.in
 
 
 4. Use Normaliz to find Cone and Hilbert basis.
@@ -28,5 +29,5 @@ Download the basic package and executables in the same folder.
 
 From the terminal go to the correct folder and type "java -jar jNormaliz.jar".
 
-Open the file graph.in and run Normaliz
+Open the file graph.in and run Normaliz with Hilbert basis mode (or higher)
 
