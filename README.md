@@ -19,15 +19,18 @@ There should be as many nested for loops as the number of vertices of the graph.
 
 
 3. use code.cpp to generate cuts.
-Fill in correct values for a and b in code.cpp. Compile and run code.cpp -> outputs char vectors of cuts into graph.in
+Fill in correct values for a and b in code.cpp. Compile and run code.cpp -> outputs characteristic vectors of cuts into graph.in
 
 
-4. Use Normaliz to find Cone and Hilbert basis.
+4. Find Cone and Hilbert basis using Normaliz.
+To use Normaliz, download the basic package and executables in the same folder. From the terminal go to the correct folder and type "java -jar jNormaliz.jar". Open the file graph.in and run Normaliz with Hilbert basis mode (or higher).
 
-To use Normaliz
-Download the basic package and executables in the same folder.
 
-From the terminal go to the correct folder and type "java -jar jNormaliz.jar".
+References:
 
-Open the file graph.in and run Normaliz with Hilbert basis mode (or higher)
+1. L. A. Goddyn, "Cones, lattices and Hilbert bases of circuits and perfect matchings", in "Graph Structure Theory", Contemporary Mathematics 147 (1993), 419-439.
 
+2. F. Lauberthe, "The Hilbert Basis of the Cut Cone over the Complete Graph K_6", in E. Balas and J. Clausen, eds., Integer Programming and Combinatorial Optimization, Lecture Notes in Computer Science, 
+Vol. 920 (Springer, Berlin, 1995) 252-266.
+
+3. M. Laurent, "Hilbert Bases of Cuts", Discrete Mathematics 150 Elsevier (1996) 257–279
