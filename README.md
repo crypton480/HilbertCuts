@@ -28,7 +28,7 @@ To use Normaliz, download the basic package and executables in the same folder. 
 
 References:
 
-1. L. A. Goddyn, "Cones, lattices and Hilbert bases of circuits and perfect matchings", in "Graph Structure Theory", Contemporary Mathematics 147 (1993), 419-439.
+1. L. A. Goddyn, "Cones, lattices and Hilbert bases of circuits and perfect matchings", in Graph Structure Theory, Contemporary Mathematics 147 (1993), 419-439.
 
 2. F. Lauberthe, "The Hilbert Basis of the Cut Cone over the Complete Graph K_6", in E. Balas and J. Clausen, eds., Integer Programming and Combinatorial Optimization, Lecture Notes in Computer Science, 
 Vol. 920 (Springer, Berlin, 1995) 252-266.
