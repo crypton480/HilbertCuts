@@ -9,6 +9,7 @@ For questions or comments, feel free to write to tanmaydesh5886@gmail.com
 
 
 Instructions:
+-----------
 
 1. matrix.txt is incidence matrix of graph.
 Rows represent the edges and columns represent the vertices
@@ -27,6 +28,7 @@ To use Normaliz, download the basic package and executables in the same folder. 
 
 
 References:
+-----------
 
 1. L. A. Goddyn, "Cones, lattices and Hilbert bases of circuits and perfect matchings", in Graph Structure Theory, Contemporary Mathematics 147 (1993), 419-439.
 
