@@ -11,17 +11,14 @@ For questions or comments, feel free to write to tanmaydesh5886@gmail.com
 Instructions:
 
 1. matrix.txt is incidence matrix of graph.
-
 Rows represent the edges and columns represent the vertices
 
 
 2. use forloop.cpp to fill in code for code.cpp. 
-
 There should be as many nested for loops as the number of vertices of the graph.
 
 
 3. use code.cpp to generate cuts.
-
 Fill in correct values for a and b in code.cpp. Compile and run code.cpp -> outputs char vectors of cuts into graph.in
 
 
