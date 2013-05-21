@@ -1,5 +1,6 @@
 //write nested for loops
 //="0";e["<<i<<"]<2;e["<<i<<"]++)\n"
+//test
 #include <iostream>  
 #include <fstream>
 using namespace std; 
