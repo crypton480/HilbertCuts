@@ -18,8 +18,8 @@ int a,b;
 a=6; //no of edges
 b=0; //counter for number of edges
 int A[a][a];
-ofstream mat ("matrix.txt"); //input graph as adjacency matrix
-ifstream adj ("adj.txt"); //output an incidence matrix
+ofstream mat ("matrix.txt"); //output an incidence matrix
+ifstream adj ("adj.txt"); //input graph as adjacency matrix
 
 for(int i=0;i<a;i++)
 for(int j=0;j<a;j++)
