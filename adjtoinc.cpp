@@ -49,6 +49,6 @@ for(int j=i;j<a;j++)
 	}
 }
 
-cout<<"Number if edges = "<<b;
+cout<<"Number of edges = "<<b<<"\n";
 return 0;
 }
