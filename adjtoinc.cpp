@@ -1,5 +1,5 @@
 /*
-Hilbert basis of cuts - May 2013
+Hilbert basis of cuts - June 2013
 - Tanmay Deshpande
 tanmaydesh5886@gmail.com
 * 
