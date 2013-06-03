@@ -4,7 +4,7 @@ Hilbert basis of cuts - April 2013
 tanmaydesh5886@gmail.com
 * 
 * 
-Takes a graph and outputs a set of cuts in a file ready for Normaliz to compute Hilbert bases
+Takes a graph as an incidence matrix and outputs a set of cuts in a file ready for Normaliz to compute Hilbert bases
 http://www.mathematik.uni-osnabrueck.de/normaliz/
 * 
 */
