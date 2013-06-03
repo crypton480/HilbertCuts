@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
 int a,b;
-a=6; //no of edges
+a=6; //no of vertices
 b=0; //counter for number of edges
 int A[a][a];
 ofstream mat ("matrix.txt"); //output an incidence matrix
