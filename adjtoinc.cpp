@@ -34,6 +34,7 @@ cout<<"\n";
 }
 cout<<"\n";*/
 
+//For '1' in the upper triangle of the incidence matrix, create an incidence vector in the incidence matix
 for(int i=0;i<a;i++)
 for(int j=i;j<a;j++)
 {
