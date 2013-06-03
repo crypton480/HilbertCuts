@@ -12,7 +12,7 @@ Instructions:
 -----------
 
 1. matrix.txt is incidence matrix of graph.
-Rows represent the edges and columns represent the vertices
+Rows represent the edges and columns represent the vertices. If the adjacency matrix is available instead, convert to incidence matrix using adtoinc.cpp.
 
 
 2. use forloop.cpp to fill in code for code.cpp. 
