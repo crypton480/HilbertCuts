@@ -1,6 +1,11 @@
 /*
+<<<<<<< HEAD
 Hilbert basis of cuts - April 2013
 - Tanmay Deshpande (crypton480)
+=======
+Hilbert basis of cuts - June 2013
+- Tanmay Deshpande
+>>>>>>> 7cd2b4ff2c6956cff1728b327ac88b57e30d294b
 tanmaydesh5886@gmail.com
 * 
 * 
