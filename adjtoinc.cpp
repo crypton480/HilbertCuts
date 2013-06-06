@@ -1,10 +1,10 @@
 /*
 Hilbert basis of cuts - April 2013
-- Tanmay Deshpande
+- Tanmay Deshpande (crypton480)
 tanmaydesh5886@gmail.com
 * 
 * 
-Converts an adjacency matrix into an incidence matrix
+Converts an adjacency matrix into an incidence matrix.
 * 
 */
 #include <iostream>  
