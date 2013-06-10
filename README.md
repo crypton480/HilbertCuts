@@ -12,11 +12,11 @@ Instructions:
 -----------
 
 1. matrix.txt is incidence matrix of graph.
-Rows represent the edges and columns represent the vertices. If the adjacency matrix is available instead, convert to incidence matrix using adtoinc.cpp.
+Rows represent the edges and columns represent the vertices. If the adjacency matrix is available instead, convert to incidence matrix using adtoinc.cpp (Use in conjunction with GraphTea or other software that can generate the adjacency matrix of a graph).
 
 
 2. use forloop.cpp to fill in code for code.cpp. 
-There should be as many nested for loops as the number of vertices of the graph.
+There should be as many nested for loops as the number of vertices of the graph. (This will soon be replaced by a more efficient recurssive system)
 
 
 3. use code.cpp to generate cuts.
