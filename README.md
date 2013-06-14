@@ -35,7 +35,7 @@ To use Normaliz, download the basic package and executables in the same folder. 
 
 Some ideas to be implemented in the near future. Feel free to try them yourself!
 
-1. Replace the annoying nested for-loops in code.cpp with a more elegant recurssion
+1. Replace the annoying nested for-loops in code.cpp with a more elegant recursion
 2. Integrate generation of cuts in GraphTea
 3. Integrate Normaliz calls in the code
 
