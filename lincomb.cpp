@@ -4,7 +4,7 @@ Hilbert basis of cuts - April 2013
 tanmaydesh5886@gmail.com
 * 
 * 
-Express a vector as a positive linear combination of cuts
+Express a vector as a positive linear combination of cuts. Takes as input a text file consisting of char vectors of cuts of a graph. Outputs on console a file almost ready to be taken in by glpk.
 * 
 */
 
