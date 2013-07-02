@@ -36,7 +36,8 @@ java -jar jNormaliz.jar
 
 
 ###Extras:
-If a graph G does not have Hilbert cuts, we need to analyse the vectors that are in the cone and the lattice but not in the integer cone of the cuts of G. We call such an element a 'quasi-Hilbert element of G'. To analyse such elements, we need to express them as a positive linear combination of cuts of G. The file lincomb.cpp does precisely this.
+If a graph G does not have Hilbert cuts, we need to analyse the vectors that are in the cone and the lattice but not in the integer cone of the cuts of G. We call such an element a 'quasi-Hilbert element of G'. To analyse such elements, we need to express them as a positive linear combination of cuts of G. The file lincomb.cpp does precisely this. This uses the GNU linear programming kit (glpk).
+http://www.gnu.org/software/glpk/
 
 
 1. create a text file cuts.txt consisting of cuts of G. (copy-paste the the relevant lines from graph.in generated from cutgen.cpp)
