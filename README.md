@@ -18,16 +18,37 @@ For questions or comments, feel free to write to tanmaydesh5886@gmail.com
 Rows represent the edges and columns represent the vertices. If the adjacency matrix is available instead, convert to incidence matrix using adtoinc.cpp (Use in conjunction with GraphTea or other software that can generate the adjacency matrix of a graph).
 
 
-2. use forloop.cpp to fill in code for code.cpp. 
+2. use forloop.cpp to fill in code for cutgen.cpp. 
 There should be as many nested for loops as the number of vertices of the graph. 
 
 
-3. use code.cpp to generate cuts.
-Fill in correct values for a and b in code.cpp. Compile and run code.cpp -> outputs characteristic vectors of cuts into graph.in
+3. use cutgen.cpp to generate cuts.
+Fill in correct values for a and b in cutgen.cpp. Compile and run cutgen.cpp -> outputs characteristic vectors of cuts into graph.in
 
 
 4. Find Cone and Hilbert basis using Normaliz.
-To use Normaliz, download the basic package and executables in the same folder. From the terminal go to the correct folder and type "java -jar jNormaliz.jar". Open the file graph.in and run Normaliz with Hilbert basis mode (or higher).
+To use Normaliz, download the basic package and executables in the same folder. From the terminal go to the correct folder and type 
+```
+java -jar jNormaliz.jar
+```
+5. Open the file graph.in and run Normaliz with Hilbert basis mode (or higher).
+
+
+
+###Extras:
+If a graph G does not have Hilbert cuts, we need to analyse the vectors that are in the cone and the lattice but not in the integer cone of the cuts of G. We call such an element a 'quasi-Hilbert element of G'. To analyse such elements, we need to express them as a positive linear combination of cuts of G. The file lincomb.cpp does precisely this.
+
+
+1. create a text file cuts.txt consisting of cuts of G. (copy-paste the the relevant lines from graph.in generated from cutgen.cpp)
+2. fill in the values for a, b.
+3. Compile and run to get graph.lp
+4. Modify by adding quasi-Hilbert element in the first few constraints and fix display statement.
+5. Solve lp (in this case, a constraint satisfaction problem) using glpk. From the terminal, go to the correct folder and type 
+```
+glpsol --math graph.lp -o out.txt
+```    
+
+6. Result will be stored in out.txt
 
 
 
@@ -35,9 +56,9 @@ To use Normaliz, download the basic package and executables in the same folder. 
 
 Some ideas to be implemented in the near future. Feel free to try them yourself!
 
-1. Replace the annoying nested for-loops in code.cpp with a more elegant recursion
-2. Integrate generation of cuts in GraphTea
-3. Integrate Normaliz calls in the code
+- Replace the annoying nested for-loops in cutgen.cpp with a more elegant recursion
+- Integrate generation of cuts in GraphTea
+- Integrate Normaliz calls in the cutgen.cpp
 
 
 ###References:
