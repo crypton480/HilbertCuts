@@ -64,9 +64,13 @@ Some ideas to be implemented in the near future. Feel free to try them yourself!
 
 ###References:
 
-1. L. A. Goddyn, "Cones, lattices and Hilbert bases of circuits and perfect matchings", in Graph Structure Theory, Contemporary Mathematics 147 (1993), 419-439.
+1. T. Deshpande, "Cones, Lattices and Hilbert Bases of Cuts", Masters Thesis, Simon Fraser University, 2013.
 
-2. F. Lauberthe, "The Hilbert Basis of the Cut Cone over the Complete Graph K_6", in E. Balas and J. Clausen, eds., Integer Programming and Combinatorial Optimization, Lecture Notes in Computer Science, 
+2. L. A. Goddyn, "Cones, lattices and Hilbert bases of circuits and perfect matchings", in Graph Structure Theory, Contemporary Mathematics 147 (1993), 419-439.
+
+3. F. Lauberthe, "The Hilbert Basis of the Cut Cone over the Complete Graph K_6", in E. Balas and J. Clausen, eds., Integer Programming and Combinatorial Optimization, Lecture Notes in Computer Science, 
 Vol. 920 (Springer, Berlin, 1995) 252-266.
 
-3. M. Laurent, "Hilbert Bases of Cuts", Discrete Mathematics 150 Elsevier (1996) 257–279
+4. M. Laurent, "Hilbert Bases of Cuts", Discrete Mathematics 150 Elsevier (1996) 257–279
+
+5. A. Sebo, Hilbert bases, Caratheodory’s theorem and combinatorial optimization. In: Kannan, R., Pulleyblank, W. (eds.) Integer Programming and CombinatorialOptimization, Mathematical Programming Society, University of Waterloo Press, Waterloo (1990)
