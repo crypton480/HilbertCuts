@@ -27,12 +27,14 @@ Fill in correct values for a and b in cutgen.cpp. Compile and run cutgen.cpp -> 
 
 
 4. Find Cone and Hilbert basis using Normaliz.
-To use Normaliz, download the basic package and executables in the same folder. From the terminal go to the correct folder and type 
+To use Normaliz, download the basic package and executables in the same folder. To use the Normaliz GUI, go to the correct folder using terminal and type 
 ```
 java -jar jNormaliz.jar
 ```
-5. Open the file graph.in and run Normaliz with Hilbert basis mode (or higher).
-
+Then open the file graph.in and run Normaliz with Hilbert basis mode (or higher). To use Normaliz from the command line, keep the graph.in file and the normaliz executable in the same folder and use the command,
+```
+./normaliz -N graph.in
+```
 
 
 ###Extras:
