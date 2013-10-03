@@ -23,7 +23,7 @@ There should be as many nested for loops as the number of vertices of the graph.
 
 
 3. use cutgen.cpp to generate cuts.
-Fill in correct values for a and b in cutgen.cpp. Compile and run cutgen.cpp -> outputs characteristic vectors of cuts into graph.in
+Fill in correct values for a and b in cutgen.cpp. Compile and run cutgen.cpp to output the characteristic vectors of cuts into graph.in
 
 
 4. Find Cone and Hilbert basis using Normaliz.
